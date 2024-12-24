@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Box, Container, Grid2, styled } from "@mui/material";
+import { Container, styled } from "@mui/material";
 import Marquee from "react-fast-marquee";
 import BrandCard from "@/lib/components/cards/BrandCard";
 

@@ -3,7 +3,7 @@
 import { Box, Button, styled, Typography } from "@mui/material";
 import NextImage from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectFade, Navigation, Pagination, Autoplay } from "swiper/modules";
+import { EffectFade,Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";

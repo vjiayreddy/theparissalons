@@ -2,7 +2,7 @@ import { Box, styled } from "@mui/material";
 import React from "react";
 import AutoAdjustImage from "./AutoAdjustImage";
 
-const StyledBrandCard = styled(Box)(({ theme }) => ({
+const StyledBrandCard = styled(Box)(() => ({
   height: 120,
   width: 200,
   marginLeft: 10,
