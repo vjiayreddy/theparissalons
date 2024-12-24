@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Box from "@mui/material/Box";
-import { Grid2, styled } from "@mui/material";
+import { Grid2, styled, Typography } from "@mui/material";
 import { Link as MuiLink } from "@mui/material";
 import NextLink from "next/link";
 
@@ -42,7 +42,9 @@ const AppNavigation = () => {
                 </IconButton>
               </Grid2>
               <Grid2 size="auto">
-                <Grid2 size="auto">Menu</Grid2>
+                <Grid2 size="auto">
+                  <Typography variant="h1" className="tw-text-base/7 tw-font-semibold tw-tracking-tight tw-text-gray-900">Paris Salon</Typography>
+                </Grid2>
               </Grid2>
               <Grid2
                 size="grow"

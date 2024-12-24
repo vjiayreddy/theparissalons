@@ -92,6 +92,7 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           textTransform: "none",
+          borderRadius:0
         },
       },
       defaultProps: {
