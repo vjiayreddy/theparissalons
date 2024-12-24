@@ -1,7 +1,6 @@
 "use client";
 
 import { Box, styled, Typography } from "@mui/material";
-import zIndex from "@mui/material/styles/zIndex";
 import NextImage from "next/image";
 
 const StyledBanner = styled(Box)(({ theme }) => ({

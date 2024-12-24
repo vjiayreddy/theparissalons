@@ -1,19 +1,6 @@
 import React from "react";
-import { Fragment } from "react";
-import {
-  Dialog,
-  DialogBackdrop,
-  DialogPanel,
-  Tab,
-  TabGroup,
-  TabList,
-  TabPanel,
-  TabPanels,
-} from "@headlessui/react";
-import { ChevronDownIcon, XMarkIcon } from "@heroicons/react/16/solid";
-import { navigation } from "@/lib/utils/constants";
-
-
+import { Dialog, DialogBackdrop, DialogPanel } from "@headlessui/react";
+import { XMarkIcon } from "@heroicons/react/16/solid";
 
 interface MobileMenuComponentProps {
   open: boolean;

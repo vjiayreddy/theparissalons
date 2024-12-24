@@ -2,12 +2,11 @@
 import React from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Box from "@mui/material/Box";
-import { Grid2, Menu, MenuItem, styled } from "@mui/material";
+import { Grid2, styled } from "@mui/material";
 import { Link as MuiLink } from "@mui/material";
 import NextLink from "next/link";
 

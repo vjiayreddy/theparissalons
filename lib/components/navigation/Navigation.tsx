@@ -1,22 +1,7 @@
 "use client";
 
-import { Fragment, useState } from "react";
-import {
-  Popover,
-  PopoverButton,
-  PopoverGroup,
-  PopoverPanel,
-} from "@headlessui/react";
-import {
-  Bars3Icon,
-  MagnifyingGlassIcon,
-  QuestionMarkCircleIcon,
-  ShoppingBagIcon,
-} from "@heroicons/react/24/outline";
-import { navigation } from "@/lib/utils/constants";
-import NextImage from "next/image";
+import { useState } from "react";
 import MobileMenuComponent from "./MobileMenu";
-import AnchorLink from "./AnchorLink";
 
 const NavigationComponent = () => {
   const [open, setOpen] = useState(false);

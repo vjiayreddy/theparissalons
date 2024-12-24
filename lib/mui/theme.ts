@@ -1,10 +1,8 @@
 import { createTheme } from "@mui/material/styles";
 import { APP_COLORS } from "./colors";
 import {
-  Open_Sans,
   Poppins,
   Playfair_Display_SC,
-  Old_Standard_TT,
   Merriweather,
 } from "next/font/google";
 
