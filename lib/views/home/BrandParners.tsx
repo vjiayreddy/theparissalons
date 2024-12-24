@@ -4,7 +4,7 @@ import { Container, styled } from "@mui/material";
 import Marquee from "react-fast-marquee";
 import BrandCard from "@/lib/components/cards/BrandCard";
 
-const StyledBrandParnersContainer = styled(Container)(({ theme }) => ({
+const StyledBrandParnersContainer = styled(Container)(() => ({
   paddingTop: 20,
   paddingBottom: 20,
 }));
