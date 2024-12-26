@@ -3,7 +3,7 @@
 import { Box, Button, styled, Typography } from "@mui/material";
 import NextImage from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectFade,Autoplay } from "swiper/modules";
+import { EffectFade, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
@@ -21,7 +21,8 @@ const slides = [
   },
   {
     id: 2,
-    image: "https://imagedelivery.net/ywtNy772PWwXecPtq2-tAQ/b331fa9a-a9d8-4f33-155a-7ca76b468f00/quality=100",
+    image:
+      "https://imagedelivery.net/ywtNy772PWwXecPtq2-tAQ/b331fa9a-a9d8-4f33-155a-7ca76b468f00/quality=100",
     brand: "The Paris Salon",
     title: "PREMIUM HAIR",
     subtitle: "SERVICE FOR WOMEN",
@@ -29,7 +30,8 @@ const slides = [
   },
   {
     id: 3,
-    image: "https://imagedelivery.net/ywtNy772PWwXecPtq2-tAQ/3a8723cc-cb47-4030-5bc0-76321024d600/quality=100",
+    image:
+      "https://imagedelivery.net/ywtNy772PWwXecPtq2-tAQ/3a8723cc-cb47-4030-5bc0-76321024d600/quality=100",
     brand: "The Paris Salon",
     title: "PREMIUM HAIR",
     subtitle: "MAKEUP SERVICE",
@@ -38,13 +40,13 @@ const slides = [
 
   {
     id: 4,
-    image: "https://imagedelivery.net/ywtNy772PWwXecPtq2-tAQ/9bbbe59c-4b8a-4014-7685-7cd00618be00/quality=100",
+    image:
+      "https://imagedelivery.net/ywtNy772PWwXecPtq2-tAQ/9bbbe59c-4b8a-4014-7685-7cd00618be00/quality=100",
     brand: "The Paris Salon",
     title: "PREMIUM NAIL",
     subtitle: "SERVICE",
     description: "",
   },
-
 ];
 
 const StyledBanner = styled(Box)(({ theme }) => ({
@@ -112,7 +114,6 @@ const Banner = () => {
                 size="large"
                 color="primary"
                 variant="contained"
-
                 className="tw-mt-5"
                 //className="tw-mt-5 tw-text-white tw-border tw-border-white"
               >
@@ -120,8 +121,9 @@ const Banner = () => {
               </Button>
             </Box>
             <NextImage
-              quality={100}
+              quality={75}
               fill={true}
+              priority={true}
               src={slide.image}
               alt={slide.title}
               className="tw-object-cover tw-bg-center tw-grayscale tw-brightness-50"
