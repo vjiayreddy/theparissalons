@@ -12,8 +12,7 @@ import "swiper/css/pagination";
 const slides = [
   {
     id: 1,
-    image:
-      "https://imagedelivery.net/ywtNy772PWwXecPtq2-tAQ/8365ccb7-e082-41b6-d1cb-b082c3673000/quality=100",
+    image: "/hero/4.webp",
     brand: "The Paris Salon",
     title: "PREMIUM HAIR",
     subtitle: "SERVICE FOR MEN",
@@ -21,8 +20,7 @@ const slides = [
   },
   {
     id: 2,
-    image:
-      "https://imagedelivery.net/ywtNy772PWwXecPtq2-tAQ/b331fa9a-a9d8-4f33-155a-7ca76b468f00/quality=100",
+    image: "/hero/5.webp",
     brand: "The Paris Salon",
     title: "PREMIUM HAIR",
     subtitle: "SERVICE FOR WOMEN",
@@ -30,18 +28,15 @@ const slides = [
   },
   {
     id: 3,
-    image:
-      "https://imagedelivery.net/ywtNy772PWwXecPtq2-tAQ/3a8723cc-cb47-4030-5bc0-76321024d600/quality=100",
+    image: "/hero/6.webp",
     brand: "The Paris Salon",
     title: "PREMIUM HAIR",
     subtitle: "MAKEUP SERVICE",
     description: "",
   },
-
   {
     id: 4,
-    image:
-      "https://imagedelivery.net/ywtNy772PWwXecPtq2-tAQ/9bbbe59c-4b8a-4014-7685-7cd00618be00/quality=100",
+    image: "/hero/7.webp",
     brand: "The Paris Salon",
     title: "PREMIUM NAIL",
     subtitle: "SERVICE",
@@ -121,7 +116,7 @@ const Banner = () => {
               </Button>
             </Box>
             <NextImage
-              quality={75}
+              quality={100}
               fill={true}
               priority={true}
               src={slide.image}
