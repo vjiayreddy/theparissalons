@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 
-const StyledOpeningHoursContainer = styled(Container)(({ theme }) => ({
+const StyledOpeningHoursContainer = styled(Container)(() => ({
   paddingTop: 100,
   paddingBottom: 100,
 }));

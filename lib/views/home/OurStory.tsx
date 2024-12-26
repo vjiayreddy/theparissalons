@@ -42,8 +42,10 @@ const OurStory = () => {
             {/* Right Side Images Grid */}
             <div className="tw-contents lg:tw-col-span-2 lg:tw-col-end-2 lg:tw-ml-auto lg:tw-flex lg:tw-w-[37rem] lg:tw-items-start lg:tw-justify-end lg:tw-gap-x-8">
               <div className="tw-order-first tw-flex tw-w-64 tw-flex-none tw-justify-end tw-self-end lg:tw-w-auto">
-                <img
+                <NextImage
                   alt=""
+                  width={1000}
+                  height={1000}
                   src="https://kosa.bold-themes.com/classy/wp-content/uploads/sites/2/2018/09/post_07-850x1100.jpg"
                   className="tw-aspect-[4/3] tw-w-[24rem] tw-max-w-none tw-flex-none tw-rounded-2xl tw-bg-gray-50 tw-object-cover"
                 />
