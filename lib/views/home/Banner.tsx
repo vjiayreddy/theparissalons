@@ -116,7 +116,7 @@ const Banner = () => {
               </Button>
             </Box>
             <NextImage
-              quality={100}
+              quality={75}
               fill={true}
               priority={true}
               src={slide.image}
